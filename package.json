@@ -1,0 +1,22 @@
+{
+  "name": "kliqwise-aisha-video",
+  "version": "1.0.0",
+  "description": "Kliqwise Aisha product showcase video built with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render AishaShowcase out/aisha-showcase.mp4",
+    "render:gif": "remotion render AishaShowcase out/aisha-showcase.gif",
+    "build": "remotion bundle"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "@remotion/transitions": "4.0.242",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.3"
+  }
+}
